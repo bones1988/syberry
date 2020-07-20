@@ -16,27 +16,27 @@ $monday_top = convert_result_to_string($monday_result);
 if (strlen($monday_top) > $max_size) {
     $max_size = strlen($monday_top);
 }
-$tuesday_result = get_days_result($conn, 1);
+$tuesday_result = get_days_result($conn, 2);
 $tuesday_top = convert_result_to_string($tuesday_result);
 if (strlen($tuesday_top) > $max_size) {
     $max_size = strlen($tuesday_top);
 }
-$wednesday_result = get_days_result($conn, 1);
+$wednesday_result = get_days_result($conn, 3);
 $wednesday_top = convert_result_to_string($wednesday_result);
 if (strlen($wednesday_top) > $max_size) {
     $max_size = strlen($wednesday_top);
 }
-$thursday_result = get_days_result($conn, 1);
+$thursday_result = get_days_result($conn, 4);
 $thursday_top = convert_result_to_string($thursday_result);
 if (strlen($thursday_top) > $max_size) {
     $max_size = strlen($thursday_top);
 }
-$friday_result = get_days_result($conn, 1);
+$friday_result = get_days_result($conn, 5);
 $friday_top = convert_result_to_string($friday_result);
 if (strlen($friday_top) > $max_size) {
     $max_size = strlen($friday_top);
 }
-$saturday_result = get_days_result($conn, 1);
+$saturday_result = get_days_result($conn, 6);
 $saturday_top = convert_result_to_string($saturday_result);
 if (strlen($saturday_top) > $max_size) {
     $max_size = strlen($saturday_top);
